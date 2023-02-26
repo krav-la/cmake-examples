@@ -49,7 +49,7 @@ $ %SystemRoot%\system32\cmd.exe /E:ON /V:ON /k C:\Qt\qt6vars.cmd
     ```
 - Сконфигурировать CMake-проект
     ```
-    $ configure -prefix %CD%\qtbase
+    $ configure -static -prefix %CD%\qtbase
     ```
 - Запустить сборку
     ```

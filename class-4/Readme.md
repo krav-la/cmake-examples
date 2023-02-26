@@ -14,7 +14,7 @@ $ sudo do-release-upgrade
 ```
 $ sudo apt update
 $ sudo apt upgrade
-$ sudo apt-get install qt6-base-dev qt6-declarative-dev qt6-wayland qml6-module-qtquick qml6-module-qtqml-workerscript qml6-module-qtquick-templates qml6-module-qtquick-controls
+$ sudo apt-get install qt6-base-dev qt6-declarative-dev qt6-wayland qml6-module-qtquick qml6-module-qtqml-workerscript qml6-module-qtquick-templates qml6-module-qtquick-controls libgl1-mesa-dev
 ```
 ## Example Selection
 Для выбора примера необходимо вызвать `cmake-gui`, ввести в строке поиска имя переменной EXAMPLE и выбрать из списка имя примера для компиляции.
